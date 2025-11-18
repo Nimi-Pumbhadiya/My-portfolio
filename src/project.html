@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nimisha | Portfolio</title>
+    <meta name="author" content="Wordo" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Restaurant is a powerful dashboard addon by Wordo for managing food orders, reservations, and menus seamlessly."
+    />
+    <meta
+      name="keywords"
+      content="Restaurant, Food Dashboard, Restaurant Addon, Wordo, Restaurant Admin Panel, Food Order Management, Restaurant POS"
+    />
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 w-full z-50 bg-accent/90 backdrop-blur-sm border-b border-primary/20"
+    >
+      <nav
+        class="md:container w-full mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <a href="index.html" class="md:w-[120px] w-[100px] h-auto">
+          <img
+            src="assets/images/Nimisha.png"
+            alt="Logo"
+            class="w-full h-full object-scale-down"
+          />
+        </a>
+
+        <!-- Desktop Navigation -->
+        <ul class="hidden md:flex items-center space-x-8">
+          <li>
+            <a
+              href="index.html#home"
+              class="text-white hover:text-primary transition-colors"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#about"
+              class="text-white hover:text-primary transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#projects"
+              class="text-white hover:text-primary transition-colors"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#contact"
+              class="text-white hover:text-primary transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden text-white hover:text-primary transition-colors"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Navigation -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden bg-accent border-t border-primary/20"
+      >
+        <ul class="px-4 py-4 space-y-4">
+          <li>
+            <a
+              href="index.html#home"
+              class="block text-white hover:text-primary transition-colors"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#about"
+              class="block text-white hover:text-primary transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#projects"
+              class="block text-white hover:text-primary transition-colors"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="block text-white hover:text-primary transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Projects Section -->
+      <section id="projects" class="pt-24 pb-10">
+        <!-- Background Elements -->
+        <div class="container mx-auto px-4">
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-6">
+            <!-- Project 1 -->
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-1.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Watch
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern e-commerce solution with html, css , and javascript
+                      featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Watch-/"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Watch-"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-2.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Resume Builder
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Create a multi-page layout using HTML, Tailwind CSS, and
+                      JavaScript with the help of Replit AI.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Resume-Builder/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Resume-Builder"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-3.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Restaurant
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern E-Commerce Restaurant with html,Tailwind css , and
+                      javascript featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/restaurant/cart.html"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/restaurant"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-4.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Astrology Service
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern singale layout with html, css , and javascript
+                      featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Astrology-Service/"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Astrology-Service"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-5.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Beautic & Desiner Studio
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern multi page layout with html,Tailwind css , and
+                      javascript featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Boutique-Designer-Studio/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Boutique-Designer-Studio"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-6.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Gaming Layout
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern multi page layout with html, css , and javascript
+                      featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Gaming/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Gaming"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-7.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Hotel Service
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Single layout with html, css , and javascript featuring
+                      real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Hotel-Service/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Hotel-Service"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-8.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Waste Management
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Create a multi-page layout using HTML, Tailwind CSS, and
+                      JavaScript with the help of Replit AI.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Waste-Management-/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Waste-Management-"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-9.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Barber Shop
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Modern e-commerce solution with html, css , and javascript
+                      featuring real-time updates
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Barber/product.html"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Barber"
+                      target="_blank"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-10.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Quize management
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Create a multi-page layout using HTML, Tailwind CSS, and
+                      JavaScript with the help of Replit AI.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Quiz-Management/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Quiz-Management"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-11.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Tasting Tourse
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Singale page layout using HTML, CSS, and JavaScript for a
+                      tasting tourse.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Tasting-Tours/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Tasting-Tours"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-12.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Laundry Management
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Create a multi-page layout using HTML, Tailwind CSS, and
+                      JavaScript with the help of Replit AI.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        Tailwind CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Laundry-Management-/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Laundry-Management-"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-13.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Transportation Service
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      Singale page layout using HTML, CSS, and JavaScript for a
+                      tasting tourse.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Transportation-Service/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Transportation-Service"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-14.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Health Wellness Service
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      vacard layout using HTML, CSS, and JavaScript for a Health
+                      Wellness Service.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Health-Wellness/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Health-Wellness"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="project-card border border-primary/20 rounded-3xl overflow-hidden"
+            >
+              <div class="flex flex-col h-full">
+                <div class="relative pt-[55%] overflow-hidden">
+                  <img
+                    src="./assets/images/project-15.png"
+                    alt="Project 1"
+                    class="absolute inset-0 w-full h-full object-cover object-top hover:object-bottom transition-all duration-[3s]"
+                  />
+                  <div
+                    class="w-full h-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center"
+                  >
+                    <div
+                      class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center"
+                    >
+                      <svg
+                        class="w-8 h-8 text-primary"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="md:p-6 p-4 relative h-full flex flex-col flex-1">
+                  <div class="h-full">
+                    <h3
+                      class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300"
+                    >
+                      Gardning Service
+                    </h3>
+                    <p
+                      class="text-white/80 text-sm md:mb-6 mb-4 leading-relaxed"
+                    >
+                      vacard layout using HTML, CSS, and JavaScript for a
+                      Gardning Service.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 md:mb-5 mb-4">
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Html</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                      >
+                        CSS</span
+                      >
+                      <span
+                        class="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full border border-primary/30 hover:bg-primary/30 transition-colors duration-500"
+                        >Javascript</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <a
+                      href="https://nimi-pumbhadiya.github.io/Gardening/"
+                      target="_blank"
+                      class="flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        ></path>
+                      </svg>
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/Nimi-Pumbhadiya/Gardening"
+                      target="_blank"
+                      class="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium group/link"
+                    >
+                      <svg
+                        class="w-4 h-4 group-hover/link:scale-110 transition-transform"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                        />
+                      </svg>
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>

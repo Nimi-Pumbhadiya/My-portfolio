@@ -1,0 +1,12 @@
+@media screen and (max-width:767px) {
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 14px;
+    }
+
+    .btn-primary svg,
+    .btn-secondary svg {
+        width: 17px;
+    }
+}
