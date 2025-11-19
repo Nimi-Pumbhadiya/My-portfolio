@@ -23,12 +23,11 @@ jobs:
       - name: Build Tailwind CSS
         run: npm run build
 
-      # Upload ONLY ONE artifact
+      # Upload your final site (HTML + compiled CSS)
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist        # change to your REAL build folder
-          # make sure tailwind compiled files are here!
+          path: ./src   # <-- Only works if your site actually lives in /src
 
   deploy:
     needs: build
