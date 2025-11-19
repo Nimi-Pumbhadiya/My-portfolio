@@ -2,7 +2,7 @@ name: Deploy Tailwind Site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]   # or "master" depending on your repo
+    branches: ["main"]
 
 jobs:
   build:
@@ -23,12 +23,12 @@ jobs:
       - name: Build Tailwind CSS
         run: npm run build
 
-      # Upload your entire site (HTML, JS, CSS, assets)
+      # Upload ONLY ONE artifact
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src        # <-- Put your HTML here, or `./` if root
-          # Important: This folder must include the built tailwind.css
+          path: ./dist        # change to your REAL build folder
+          # make sure tailwind compiled files are here!
 
   deploy:
     needs: build
